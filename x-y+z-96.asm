@@ -22,7 +22,6 @@ addi $v0, $0, 5
 syscall
 addi $t0, $v0, 0
 
-
 # print y input message
 addi $v0, $0, 4
 la $a0, outy
@@ -32,7 +31,6 @@ syscall
 addi $v0, $0, 5
 syscall
 addi $t1, $v0, 0
-
 
 # print z input message
 addi $v0, $0, 4
@@ -59,6 +57,5 @@ syscall
 addi $v0, $0, 1
 addi $a0, $s0, 0
 syscall
-
 
 jr $ra
