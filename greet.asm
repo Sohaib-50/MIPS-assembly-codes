@@ -53,4 +53,5 @@ li $v0, 4
 la $a0, msg3
 syscall
 
-jr $ra
+li $v0, 10
+syscall
